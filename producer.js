@@ -9,7 +9,7 @@ async function send() {
     topic,
     messages: [
       {
-        value: 'Hello from my first producer!'
+        value: 'should error out!'
       }
     ]
   });
