@@ -14,6 +14,6 @@ This is a simple producer and a consumer for connecting to Kafka Topics in Confl
 3. Create an API Key and add it to the KAFKA_APIKEY and KAFKA_SECRET vars in the .env file.
 4. Navigate to Cluster Settings and copy the Bootstrap URL to the KAFKA_BROKER_URL variable in the .env file.
 
-- To start the consumer, run `node --env-file=.env producer` in a terminal window.
+- To start the consumer, run `node --env-file=.env consumer` in a terminal window.
 - To send a message, run `node --env-file=.env producer` in a separate terminal window.
 - watch the consumer terminal for the message to appear or check it out in the Confluent Cloud console.
